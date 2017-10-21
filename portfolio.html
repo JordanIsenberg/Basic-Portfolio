@@ -5,42 +5,64 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jordan Isenberg Bio</title>
+	<!-- Multiple CSS Files -->
+	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 
-<body>
+<section class="header-bar"></section>
+<body class="background">
 	<header>
-		<h1>Jordan Isenberg</h1>
-
+		<h1 class="container heading">Jordan Isenberg</h1>
+		<nav class="container">
 		<!-- Links and Header for additional pages -->
-		<h4>About | Porfolio | Contact</h4>
+			<h2 class="navigation">
+				<a class="navigation" href="index.html">About</a>
+				<a> | </a>
+				<a class="navigation" href="portfolio.html">Porfolio</a>
+				<a> | </a>
+				<a class="navigation"href="contact.html">Contact</a>
+			</h2>
+		</nav>
 	</header>
-	<div>
-		<!-- Porfolio Images Section -->
+	<div class="main-section container">
+		<!-- Porfolio Images Section - Placeholder Images at Lorem Pixel-->
 		<section>
-			<h5>Portfolio</h5>
+			<section class="titles">Portfolio</section>
+			<!-- Underline -->
+			<hr/>
 			<!-- Insert Placeholder Images from lorem ipsum website with titles -->
+			<img class="Port-Pics1" src="https://lorempixel.com/400/200" alt="1st Random Picture">
+			<img class="Port-Pics" src="https://lorempixel.com/400/200/sports" alt="2nd Random Picture">
+
 		</section>
 		<!-- Side Bar Section -->
-		<section>
-			<h3>Connect with Me</h3>
-
+		<aside class="side-bar">
+			<h3 class="titles">Connect with Me</h3>
+			<!-- Underline -->
+			<hr/>
 			<!-- Images and Links for Social Media -->
-			<a href="https://github.com/JordanIsenberg">
-				<img class="Connect1" src="/assets/images/github.png" alt="GitHub-Mark">
-			</a>
-			<a href="https://www.linkedin.com/in/jordanisenberg5/">
-				<img class="Connect2" src="/assets/images/linkedin.png" alt="LinkedIn-logo">
-			</a>
-			<a href="https://stackoverflow.com/users/8706068/jordan-isenberg">
-				<img class="Connect3" src="/assets/images/overflow.png" alt="Stack-Overflow-Logo">
-			</a>
-		</section>
+			<section class="link-images">
+				<a href="https://github.com/JordanIsenberg">
+					<img class="Connect" src="./assets/images/github.png" alt="GitHub-Mark">
+				</a>
+				<a href="https://www.linkedin.com/in/jordanisenberg5/">
+					<img class="Connect" src="./assets/images/linkedin.png" alt="LinkedIn-logo">
+				</a>
+				<a href="https://stackoverflow.com/users/8706068/jordan-isenberg">
+					<img class="Connect" src="./assets/images/overflow.png" alt="Stack-Overflow-Logo">
+				</a>
+			</section>
+		</aside>
 	</div>
-
-	<footer>
-		<h5>&copy; Copyright 2017 Jordan Isenberg</h5>
-	</footer>
-
 </body>
+
+<section class="footer-border"></section>
+
+<section class="footer-zone"></section>
+
+<footer class="footer">
+	<h4>Copyright &copy; 2017 Jordan Isenberg</h4>
+</footer>
+
 </html>
